@@ -27,10 +27,9 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## 🛠 Công Nghệ Sử Dụng
-- **Ngôn ngữ**: Python  
-- **Giao diện**: Tkinter  
-- **Cơ sở dữ liệu**: MySQL  
-- **Thư viện hỗ trợ**: Pandas, openpyxl (xuất Excel), datetime  
+- **Front-end**: HMTL, CSS, Javascript  
+- **Back-end**: NodeJS  
+- **Cơ sở dữ liệu**: PostgreSQL   
 
 ---
 
