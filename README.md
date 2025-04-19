@@ -282,7 +282,3 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ## Cơ sở dữ liệu hệ thống
 ![image](https://github.com/user-attachments/assets/4aa0d5eb-5d70-439a-ab61-34a87063c237)
 
-
-
-
->>>>>>> a7e4ab7f79a9a7d55c2f0e063a55ad984a1fed8e
