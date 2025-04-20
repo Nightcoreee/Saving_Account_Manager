@@ -50,7 +50,7 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## Sơ đồ Use Case 
-![image](https://github.com/user-attachments/assets/8f8da362-613d-4faf-8510-d0fcb95f00c5)
+![image](https://github.com/user-attachments/assets/ab4c8154-ff6e-47f8-87ff-215a34b9b38c)
 
 ## Mô tả chi tiết sơ đồ UC
 ## Các Tác Nhân (Actors)
