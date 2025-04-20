@@ -1,0 +1,20 @@
+@import url('sidebar.css');
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    /* font-size: 62.5%; */
+}
+
+.container {
+    border-radius: 5px;
+    border: rgb(208, 203, 203) solid 1px;
+    min-height: 97vh;
+    min-width: 97vw;
+    /* height: 97vh;
+    width: 97vw; */
+    display: flex;
+    overflow-y: hidden;
+}

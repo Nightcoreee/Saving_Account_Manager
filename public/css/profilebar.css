@@ -1,0 +1,133 @@
+.profilebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    min-width: 325px;
+    /* max-height: 100%; */
+    /* min-height: 97vh; */
+    height: 97vh;
+    font-size: 16px;
+    color: #787878;
+}
+
+.avatarContainer{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.avatarFrame{
+    background-image: url('../icon/avatarFrame.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.username{
+    color: #32383F;
+    margin: 10px 0 10px 0;
+}
+
+.usermail{
+    margin: 10px 0 10px 0;
+}
+
+.editprofile{
+    background-color: #5B25B41A;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color:#5B25B4;
+    margin-bottom: 5%;
+}
+.editprofile:hover{
+    background-color: #d000ff1a;
+}
+
+.savingbook{
+    border-radius: 15px;
+    border: solid 1px #E0E0E0;
+    width: 75%;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1% 5% 0 5%;
+    margin:5%;
+    background: linear-gradient(65.44deg, #129C9C 0%, #A773FF 94.64%);
+}
+
+
+.savingbook p {
+    color: #C6C6C6;
+    margin: auto 0;
+}
+
+.savingbook h1{
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.profilebar .addBtn{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: none;
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+.profilebar .addBtn:hover{
+    background-color: #C6C6C6;
+}
+
+
+.profilebar .addBtn .icon {
+    display: flex;
+    width: 4.4rem;
+    height: 4.4rem;
+    background-position: 50%;
+}
+.profilebar .icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-position: 50%;
+    margin: auto 0;
+}
+/* @media screen and (max-width: 1000px) {
+    .profilebar{
+        display: none;
+    }
+    .mainDashboard{
+        min-width: calc(100% - 225px);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sidebar{
+        display: none;
+    }
+    .mainDashboard{
+        min-width: 100%;
+    }
+    .sidebarButton{
+        display: flex;
+    }
+} */

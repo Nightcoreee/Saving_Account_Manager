@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Giga';
+}
+
+body {
+    background-image: url('../img/loginbg.png');
+    background-repeat: no-repeat;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    width: 700px;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#form #title {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+#form #sub_title {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#forgot_pass {
+    color: gray;
+    text-transform: uppercase;
+    text-decoration: underline;
+    align-self: flex-end;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+#forgot_pass:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+#form_input {
+    display: grid;
+    grid-template-rows: 80px 80px;
+    margin-top: 20px;
+}
+
+#form_input div input {
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+#form_input div div {
+    color: red;
+    font-size: 12px;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+#form #btn_side button,
+#form #btn_side input {
+    height: 70px;
+    width: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #B46C6C;
+    border: 0px;
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+#form #btn_side button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#form #btn_side button:hover {
+    cursor: pointer;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    #form {
+        width: 400px;
+        height: 600px;
+    }
+
+    #form #title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #form #sub_title {
+        font-size: 15px;
+    }
+
+    #form_input div input {
+        width: 300px;
+    }
+
+    #forgot_pass {
+        margin-right: 60px;
+        font-size: 12px;
+    }
+
+    #form #btn_side button {
+        margin: 10px 100px;
+    }
+}

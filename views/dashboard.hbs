@@ -1,0 +1,60 @@
+<div class="main">
+    <div class="mainDashboard">
+        <div class="dashboardHeader">
+            <button type="button" class="sidebarButton">
+                <i class="icon iconSidebar"></i>
+            </button>
+            <p>Dashboard</p>
+            <div></div>
+        </div>
+        <div class="summary">
+            <div class="sum">
+                <i class="icon iconSum"></i>
+                <p>Tổng số tiền trong sổ</p>
+                <h1>${{summary}}</h1>
+            </div>
+            <div class="send">
+                <i class="icon iconSend"></i>
+                <p>Đã gửi vào tháng này</p>
+                <h1>${{depositAmount}}</h1>
+            </div>
+            <div class="withdraw">
+                <i class="icon iconWithdraw"></i>
+                <p>Đã rút tháng này</p>
+                <h1>${{withdrawAmount}}</h1>
+            </div>
+        </div>
+        {{#each deposits}}
+        <div class="noti">
+            <i class="icon iconSend"></i>
+            <h2>Sổ {{this.passbook_name}}</h2>
+            <h2 class="amount">+${{this.depslip_amount}}</h2>
+        </div>
+        {{/each}}
+    </div>
+    <div class="profilebar">
+        <div class="avatarContainer">
+            <i class="avatarFrame">
+                <img class="avatar" src="img/nullAvt.png" alt="avt">
+            </i>
+        </div>
+        <h2 class="username">{{username}}</h2>
+        <h3 class="usermail">{{email}}</h3>
+        <a href="/profile"><button type="button" class="editprofile">Edit Profile</button></a>
+        {{#each passbooks}}
+        <div class="savingbook">
+            <form action="/passbook/details" method="post">
+                <input type="number" name="passbookID" value="{{this.passbook_id}}" hidden>
+            </form>
+            <i class="icon iconSum"></i>
+            <p>{{this.passbook_name}}</p>
+            <h1>${{this.passbook_deposits}}</h1>
+        </div>
+        {{/each}}
+        {{#if createable}}
+        <div>
+            <a href="/passbook/create" class="addBtn"><i class="icon iconAdd"></i></a>
+        </div>
+        {{/if}}
+    </div>
+</div>

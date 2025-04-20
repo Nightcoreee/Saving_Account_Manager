@@ -1,0 +1,161 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 225px;
+    min-height: 100%;
+    overflow-y:auto;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    gap: 0.5em;
+    
+}
+
+.sidebarHeader{
+    min-width: 80%;
+    font-weight: bold;
+    margin: 10%;
+}
+
+.sidebar nav{
+    height: 75%;
+}
+.logoutButton{
+    min-width: 80%;
+    margin: 10%;
+}
+
+.logoutButton a{
+    color: #D36363;
+}
+
+.sidebar .icon{
+    width: 2.2rem;
+    height: 2.2em;
+    background-position: 50%;
+
+}
+
+.iconSidebar {
+    background-image: url('./res/icon/sidebarActive.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.iconDashboard {
+    background-image: url('./res/icon/dashboard.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.iconSavings {
+    background-image: url('./res/icon/savings.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.iconSaved {
+    background-image: url('./res/icon/saved.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.iconProfile {
+    background-image: url('./res/icon/profile.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.iconSettings {
+    background-image: url('./res/icon/settings.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.iconSettings {
+    background-image: url('./res/icon/settings.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.iconActive {
+    width: 0.5625rem;
+    height: 3em;
+    background-position: 50%;
+    background-image: url('./res/icon/active.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    align-self: center;
+}
+
+.iconLogout {
+    background-image: url('./res/icon/logout.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: flex;
+    overflow:hidden;
+}
+
+ul li a{
+    width: 100%;
+    padding-left: 20%;
+}
+ul li a:hover{
+    background-color: #E5E5E5;
+    color: #5B25B4;
+}
+
+ul li a.active{
+    color: #5B25B4;
+}
+ul li a:hover i.iconDashboard{
+    background-image: url(./res/icon/dashboardActive.svg);
+}
+
+ul li a:hover i.iconSettings{
+    background-image: url(./res/icon/settingsActive.svg);
+}
+
+ul li a:hover i.iconProfile{
+    background-image: url(./res/icon/profileActive.svg);
+}
+
+ul li a:hover i.iconSaved{
+    background-image: url(./res/icon/savedActive.svg);
+}
+
+ul li a:hover i.iconSavings{
+    background-image: url(./res/icon/savingsActive.svg);
+}
+
+ul li a.active i.iconDashboard{
+    background-image: url(./res/icon/dashboardActive.svg);
+}
+
+ul li a.active i.iconSettings{
+    background-image: url(./res/icon/settingsActive.svg);
+}
+
+ul li a.active i.iconProfile{
+    background-image: url(./res/icon/profileActive.svg);
+}
+
+ul li a.active i.iconSaved{
+    background-image: url(./res/icon/savedActive.svg);
+}
+
+ul li a.active i.iconSavings{
+    background-image: url(./res/icon/savingsActive.svg);
+}

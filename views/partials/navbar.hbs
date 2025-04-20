@@ -1,0 +1,54 @@
+<div class="sidebar col-2 p-0">
+        <div class="sidebarHeader">
+            <a href="#" class="sidebarHide">
+                <i class="icon iconSidebar"></i>
+                <span>Sổ tiết kiệm
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/dashboard" {{#if active.dashboard}} class="active" {{/if}}>
+                        <i class="icon iconDashboard"></i>
+                        <span>Dashboard</span>
+                        {{#if active.dashboard}} <i class="iconActive"></i> {{/if}}
+                    </a>
+                    <!-- <i class="iconActive"></i> -->
+                </li>
+                {{!-- <li>
+                    <a href="#" {{#if active.savings}} class="active"  {{/if}}>
+                        <i class="icon iconSavings"></i>
+                        <span>Savings</span>
+                        {{#if active.savings}} <i class="iconActive"></i> {{/if}}
+                    </a>
+                </li> --}}
+                <li>
+                    <a href="/passbook" {{#if active.passbook}} class="active"  {{/if}}>
+                        <i class="icon iconSaved"></i>
+                        <span>Danh sách STK</span>
+                        {{#if active.passbook}} <i class="iconActive"></i> {{/if}}
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile" {{#if active.profile}} class="active"  {{/if}}>
+                        <i class="icon iconProfile"></i>
+                        <span>Profile</span>
+                        {{#if active.profile}} <i class="iconActive"></i> {{/if}}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" {{#if active.settings}} class="active"  {{/if}}>
+                        <i class="icon iconSettings"></i>
+                        <span>Settings</span>
+                        {{#if active.settings}} <i class="iconActive"></i> {{/if}}
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="logoutButton">
+            <a href="/logout" class="">
+                <i class="icon iconLogout"></i>
+                <span>Logout</span>
+            </a>
+        </div>
+    </div>

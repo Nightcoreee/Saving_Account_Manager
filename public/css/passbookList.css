@@ -1,0 +1,123 @@
+.main {
+    /* background-color: #E5E5E5; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; */
+    min-width: calc(100% - 225px);
+    height: 97vh;
+    overflow-y: auto;
+}
+
+.main .icon {
+    width: 4.4rem;
+    height: 4.4em;
+    background-position: 50%;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#32383F;
+    font-weight: bold;
+}
+
+.mainHeader p{
+    font-size: 5rem;
+    margin: 2%;
+}
+
+.main .sidebarButton {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: none;
+    display: none;
+    width: 4.4rem;
+    height: 4.4em;
+}
+
+.main .sidebarButton:hover {
+    background-color: #C6C6C6;
+}
+
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* align-items: space-around; */
+}
+
+.savingbook {
+    border-radius: 15px;
+    border: solid 1px #E0E0E0;
+    width: 25%;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2rem;
+    margin:2rem;
+    background: linear-gradient(65.44deg, #129C9C 0%, #A773FF 94.64%);
+}
+
+
+.savingbook p {
+    color: #C6C6C6;
+    margin: auto 0;
+}
+
+.savingbook h1{
+    color: #FFFFFF;
+    margin: auto 0;
+}
+.addContainer {
+    display:flex;
+    justify-content: center;
+}
+.addBtn{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: none;
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+.addBtn:hover{
+    background-color: #C6C6C6;
+}
+
+
+.addBtn .icon {
+    display: flex;
+    width: 4.4rem;
+    height: 4.4rem;
+    background-position: 50%;
+}
+.icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-position: 50%;
+    margin: auto 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .savingbook {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sidebar{
+        display: none;
+    }
+    .main{
+        min-width: 100%;
+    }
+    .main .sidebarButton{
+        display: flex;
+    }
+}

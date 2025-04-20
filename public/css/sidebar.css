@@ -1,0 +1,111 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 225px;
+    min-height: 100%;
+    overflow-y:auto;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    gap: 0.5em;
+    
+}
+
+.sidebarHeader{
+    min-width: 80%;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.sidebar nav{
+    height: 75%;
+}
+.logoutButton{
+    min-width: 80%;
+    margin: 2rem 0;
+    padding: 0 2rem
+}
+
+.logoutButton a{
+    color: #D36363;
+}
+
+.logoutButton:hover{
+    background-color: #E5E5E5;
+    /* color: #5B25B4; */
+}
+.sidebar .icon{
+    width: 2.2rem;
+    height: 2.2em;
+    background-position: 50%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: flex;
+    overflow:hidden;
+}
+
+ul li a{
+    width: 100%;
+    padding-left: 20%;
+}
+ul li a:hover{
+    background-color: #E5E5E5;
+    color: #5B25B4;
+}
+
+ul li a.active{
+    color: #5B25B4;
+}
+ul li a:hover i.iconDashboard{
+    background-image: url(../icon/dashboardActive.svg);
+}
+
+ul li a:hover i.iconSettings{
+    background-image: url(../icon/settingsActive.svg);
+}
+
+ul li a:hover i.iconProfile{
+    background-image: url(../icon/profileActive.svg);
+}
+
+ul li a:hover i.iconSaved{
+    background-image: url(../icon/savedActive.svg);
+}
+
+ul li a:hover i.iconSavings{
+    background-image: url(../icon/savingsActive.svg);
+}
+
+ul li a.active i.iconDashboard{
+    background-image: url(../icon/dashboardActive.svg);
+}
+
+ul li a.active i.iconSettings{
+    background-image: url(../icon/settingsActive.svg);
+}
+
+ul li a.active i.iconProfile{
+    background-image: url(../icon/profileActive.svg);
+}
+
+ul li a.active i.iconSaved{
+    background-image: url(../icon/savedActive.svg);
+}
+
+ul li a.active i.iconSavings{
+    background-image: url(../icon/savingsActive.svg);
+}

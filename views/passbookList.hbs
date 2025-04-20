@@ -1,0 +1,27 @@
+<div class="main">
+    <div class="mainHeader">
+        <button type="button" class="sidebarButton">
+            <i class="icon iconSidebar"></i>
+        </button>
+        <p>Danh sách sổ tiết kiệm</p>
+    </div>
+    <div>
+        <div class="listContainer">
+            {{#each passbooks}}
+            <div class="savingbook">
+                <form action="/passbook/details" method="post">
+                    <input type="number" name="passbookID" value="{{this.passbook_id}}" hidden>
+                </form>
+                <i class="icon iconSum"></i>
+                <p>{{this.passbook_name}}</p>
+                <h1>${{this.passbook_deposits}}</h1>
+            </div>
+            {{/each}}
+        </div>
+        {{#if createable}}
+        <div class="addContainer">
+            <a href="/passbook/create" class="addBtn"><i class="icon iconAdd"></i></a>
+        </div>
+        {{/if}}
+    </div>
+</div>

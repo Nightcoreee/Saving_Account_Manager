@@ -1,0 +1,113 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    /* font-size: 62.5%; */
+}
+
+.container {
+    border-radius: 5px;
+    border: rgb(208, 203, 203) solid 1px;
+    min-height: 97vh;
+    min-width: 97vw;
+    /* height: 97vh;
+    width: 97vw; */
+    display: flex;
+}
+
+
+.main {
+    /* background-color: #E5E5E5; */
+    min-width: calc(100% - 225px);
+    min-height: 100%;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#32383F;
+    font-weight: bold;
+}
+
+.mainHeader p{
+    font-size: 5rem;
+    margin: 2%;
+}
+
+.main .sidebarButton{
+    background-color: #E5E5E5;
+    border-radius: 1rem;
+    border: none;
+    display: none;
+    width: 4.4rem;
+    height: 4.4em;
+}
+
+.main .sidebarButton:hover{
+    background-color: #C6C6C6;
+}
+
+.main #form {
+    font-size: 18px;
+    color: #32383F;
+
+}
+
+.main #form .box {
+    padding: 0.5em 15%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
+
+}
+.main #form .box input {
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+    padding: 8px 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.main #form .box input:read-only{
+    /* color:rgb(208, 203, 203); */
+    background-color: rgb(208, 203, 203);
+}
+
+/* .main #form .box div {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    align-self: flex-start;
+    margin-left: 30px;
+} */
+
+.main #form #btn_side {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+.main #form #btn_side button,
+.main #form #btn_side input {
+    height: 70px;
+    width: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(65.44deg, #129C9C 0%, #A773FF 94.64%);
+    border: 0px;
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 720px) {
+    .sidebar{
+        display: none;
+    }
+    .main{
+        min-width: 100%;
+    }
+    .sidebarButton{
+        display: flex;
+    }
+}

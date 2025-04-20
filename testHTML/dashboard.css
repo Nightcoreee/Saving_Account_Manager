@@ -1,0 +1,140 @@
+@import url();
+@import url();
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    /* font-size: 62.5%; */
+}
+
+.container {
+    border-radius: 5px;
+    border: rgb(208, 203, 203) solid 1px;
+    min-height: 97vh;
+    min-width: 97vw;
+    /* height: 97vh;
+    width: 97vw; */
+    display: flex;
+}
+
+.mainDashboard .icon {
+    width: 4.4rem;
+    height: 4.4em;
+    background-position: 50%;
+}
+
+.iconSum {
+    background-image: url('./res/icon/sum.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.iconSend {
+    background-image: url('./res/icon/send.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.iconWithdraw {
+    background-image: url('./res/icon/withdraw.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.mainDashboard {
+    background-color: #E5E5E5;
+    min-width: calc(100% - 550px);
+    min-height: 100%;
+}
+
+.dashboardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#32383F;
+    font-weight: bold;
+}
+
+.dashboardHeader p{
+    font-size: 5em;
+    margin: 2%;
+}
+
+.sidebarButton{
+    background-color: #E5E5E5;
+    border-radius: 1rem;
+    border: none;
+    display: none;
+    width: 4.4rem;
+    height: 4.4em;
+}
+
+.sidebarButton:hover{
+    background-color: #C6C6C6;
+}
+
+.summary {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    min-height: 12vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.summary div {
+    border-radius: 15px;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1% 5% 0 5%;
+}
+
+.summary .sum {
+    background: linear-gradient(65.44deg, #129C9C 0%, #A773FF 94.64%);
+}
+
+.summary .sum p {
+    color: #C6C6C6;
+    margin: auto 0 0 0;
+}
+
+.summary .sum h1{
+    color: #FFFFFF;
+}
+
+.summary .send,
+.summary .withdraw{
+    background-color: #FFFFFF;
+}
+
+.summary .send p,
+.summary .withdraw p {
+    color:#787878;
+    margin: auto 0 0 0;
+}
+
+.summary .send h1,
+.summary .withdraw h1 {
+    color: #32383F;
+}
+
+.mainDashboard .noti {
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 60px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}

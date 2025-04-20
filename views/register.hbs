@@ -1,0 +1,41 @@
+<div id="main">
+        <form id="form" method="POST" action="/register">
+            <div id="title">Register</div>
+            <div id="form_input">
+                <div id="username_box">
+                    <input id="username" type="text" placeholder="USERNAME" name="username" maxlength="15">
+                    <div id="username_warning"></div>
+                </div>
+
+                <div id="pasword_box">
+                    <input id="password" type="password" placeholder="PASSWORD" name="password"  maxlength="15">
+                    <div id="pass_warning"></div>
+                </div>
+
+                <div id="email_box">
+                    <input id="email" type="text" placeholder="EMAIL" name="email" maxlength="40">
+                    <div id="email_warning"></div>
+                </div>
+           
+                <div id="repass_box">
+                    <input id="repassword" type="password" placeholder="RE-ENTER PASSWORD" name="repassword"  maxlength="15">
+                    <div id="repass_warning"></div>
+                </div>
+
+                <div id="name_box">
+                    <input id="name" type="text" placeholder="NAME" name="fullname"  maxlength="30">
+                    <div id="name_warning"></div>
+                </div>
+                
+                <div id="phone_box">
+                    <input id="phone" type="text" placeholder="PHONE NUMBER" name="phonenumber"  maxlength="10">
+                    <div id="phone_warning"></div>
+                </div>            
+            </div>
+            <div id="btn_side">
+                <input id="registerBtn" type="submit" value="Register"></input>
+                <a href="/login"><button id="loginBtn" type="button">Login</button></button></a>
+            </div>
+            
+        </form>
+    </div>

@@ -1,0 +1,133 @@
+@import url('profilebar.css');
+.main {
+    display: flex;
+    min-width: calc(100% - 225px);
+}
+.mainDashboard .icon {
+    width: 4.4rem;
+    height: 4.4em;
+    background-position: 50%;
+}
+
+.mainDashboard {
+    background-color: #E5E5E5;
+    min-width: calc(100% - 325px);
+    min-height: 100%;
+}
+
+.dashboardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#32383F;
+    font-weight: bold;
+}
+
+.dashboardHeader p{
+    font-size: 5em;
+    margin: 2%;
+}
+
+.sidebarButton{
+    background-color: #E5E5E5;
+    border-radius: 1rem;
+    border: none;
+    display: none;
+    width: 4.4rem;
+    height: 4.4em;
+}
+
+.sidebarButton:hover{
+    background-color: #C6C6C6;
+}
+
+.summary {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    min-height: 12vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.summary div {
+    border-radius: 15px;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1% 5% 0 5%;
+    /* padding: 1em 1.5em; */
+}
+
+.summary .sum {
+    background: linear-gradient(65.44deg, #129C9C 0%, #A773FF 94.64%);
+}
+
+.summary .sum p {
+    color: #C6C6C6;
+    margin: auto 0;
+}
+
+.summary .sum h1{
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.summary .send,
+.summary .withdraw{
+    background-color: #FFFFFF;
+}
+
+.summary .send p,
+.summary .withdraw p {
+    color:#787878;
+    margin: auto 0;
+}
+
+.summary .send h1,
+.summary .withdraw h1 {
+    color: #32383F;
+    margin: auto 0;
+}
+
+.mainDashboard .noti {
+    /* display: flex; */
+    margin:2% 5%;
+    min-height: 60px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    /* justify-content: space-around; */
+}
+
+.mainDashboard .noti .amount{
+    margin-left: auto;
+    margin-right: 0;
+}
+@media screen and (max-width: 1000px) {
+    .profilebar{
+        display: none;
+    }
+    .mainDashboard{
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sidebar{
+        /* min-width: 100%; */
+        display: none;
+    }
+    .main {
+        min-width: 100%;
+    }
+    .mainDashboard .sidebarButton{
+        display: flex;
+    }
+}
