@@ -98,7 +98,8 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## Cơ sở dữ liệu hệ thống
-![image](https://github.com/user-attachments/assets/ed7a3ce7-3997-414f-a0ae-4220cb7f9560)
+![image](https://github.com/user-attachments/assets/a87799fc-50d9-489d-8135-1e7f752120e9)
+
 
 
 
