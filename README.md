@@ -50,7 +50,8 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## Sơ đồ Use Case 
-![image](https://github.com/user-attachments/assets/5278b6e4-0862-4070-87ac-a3c689e3430d)
+![image](https://github.com/user-attachments/assets/fcfcef3e-2a9a-445f-bbcd-149919b4bc8d)
+
 
 ## Mô tả chi tiết sơ đồ UC
 ## Các Tác Nhân (Actors)
@@ -97,6 +98,7 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## Cơ sở dữ liệu hệ thống
-![image](https://github.com/user-attachments/assets/05c1e2b4-3bea-4a48-8151-9c9fc3fe468d)
+![image](https://github.com/user-attachments/assets/90525a99-90e2-4bbf-b1f7-ee95e104f705)
+
 
 
