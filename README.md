@@ -103,11 +103,11 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## Hướng dẫn cài đặt dự án
-**Bước 1:** Clone Responsity về máy
-**Bước 2:** Cd tới thư mục dự án và cài đặt theo lệnh npm install
-**Bước 3:** Tạo database trong PostgreSQL theo cấu trúc qlstk.sql
-**Bước 4:** Đặt lại user, password trong folder config là file cnStr.js
-**Bước 5:** Chạy lệnh npm start và truy cập localhost:3000 để truy cập trang web
+- **Bước 1:** Clone Responsity về máy
+- **Bước 2:** Cd tới thư mục dự án và cài đặt theo lệnh npm install
+- **Bước 3:** Tạo database trong PostgreSQL theo cấu trúc qlstk.sql
+- **Bước 4:** Đặt lại user, password trong folder config là file cnStr.js
+- **Bước 5:** Chạy lệnh npm start và truy cập localhost:3000 để truy cập trang web
 
 
 
