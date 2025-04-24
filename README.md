@@ -50,7 +50,8 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## Sơ đồ Use Case 
-![image](https://github.com/user-attachments/assets/5278b6e4-0862-4070-87ac-a3c689e3430d)
+![image](https://github.com/user-attachments/assets/fcfcef3e-2a9a-445f-bbcd-149919b4bc8d)
+
 
 ## Mô tả chi tiết sơ đồ UC
 ## Các Tác Nhân (Actors)
@@ -97,6 +98,17 @@ Với giao diện trực quan, người dùng có thể yêu cầu nhân viên l
 ---
 
 ## Cơ sở dữ liệu hệ thống
-![image](https://github.com/user-attachments/assets/05c1e2b4-3bea-4a48-8151-9c9fc3fe468d)
+![image](https://github.com/user-attachments/assets/a87799fc-50d9-489d-8135-1e7f752120e9)
+
+---
+
+## Hướng dẫn cài đặt dự án
+**Bước 1:** Clone Responsity về máy
+**Bước 2:** Cd tới thư mục dự án và cài đặt theo lệnh npm install
+**Bước 3:** Tạo database trong PostgreSQL theo cấu trúc qlstk.sql
+**Bước 4:** Đặt lại user, password trong folder config là file cnStr.js
+**Bước 5:** Chạy lệnh npm start và truy cập localhost:3000 để truy cập trang web
+
+
 
 
